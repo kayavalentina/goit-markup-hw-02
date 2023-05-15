@@ -26,6 +26,12 @@ background-color: #FFFFFF;
  :root{
     --services-color:#2e2f42;  
  }
+ :root{
+    --adress-color:#434455;  
+ }
+ :root{
+    --parafraf-color:#434455;  
+ }
 
 .logo{  
     font-family: 'Raleway',sans-serif;
@@ -57,11 +63,6 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: var(--adress-color);
 }
-:root{
-    --adress-color:#434455;  
- }
-
-
 
 .menu:hover,
 .menu:focus{
@@ -70,7 +71,7 @@ color: #2E2F42;
 
 .mail-tel:hover,
 .mail-tel:focus{
-    color: var(--title-color);   
+    color:var(--title-color);   
 }
   
 .section-hero{
@@ -97,9 +98,9 @@ color: var(--text-color);
 cursor: pointer;
 background-color: #4D5AE5
 }
-.buton:hover,
-.buton:focus{
-    background-color: #404BBF;
+.button:hover,
+.button:focus{
+    background-color:#404BBF;
 }
 .visually-hidden{
     position: absolute;
@@ -191,18 +192,14 @@ cursor: pointer;
 font-weight: 500;
 background-color:#F4F4FD;
 }
-.buton-all:hover,
-.buton-all:focus{
+.button-all:hover,
+.button-all:focus{
     background-color:#404BBF;
 }  
-.buton-all:hover,
-.buton-all:focus{
+.button-all:hover,
+.button-all:focus{
     color: #FFFFFF;
     
-}
-.buton-portfolio:hover,
-.buton-portfolio:focus{
-    color: #404BBF;
 }
 
 .cervices{
@@ -222,6 +219,3 @@ color:var(--parafraf-color) ;
 .logo-studio{
     color: #f4f4fd;
 }
-:root{
-    --parafraf-color:#434455;  
- }
