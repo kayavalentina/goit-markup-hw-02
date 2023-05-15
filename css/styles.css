@@ -10,9 +10,16 @@ color: #2E2F42;
 .link{
     text-decoration: none;
 }
-.haeder{
-    background-color: #FFFFFF;
+.header{
+    background-color: var(--text-color);
 }
+:root{
+   --title-color: #404BBF;  
+}
+:root{
+    --text-color: #FFFFFF;  
+ }
+
 .logo{  
     font-family: 'Raleway',sans-serif;
     font-style: normal;
@@ -55,16 +62,16 @@ color: #434455;
 }
 .menu:hover,
 .menu:focus{
-    color: #404BBF;   
+    color: var(--title-color);   
 }
 
 .mail:hover,
 .mail:focus{
-    color: #404BBF;   
+    color: var(--title-color);   
 }
 .tel-numer:hover,
 .tel-numer:focus{
-    color: #404BBF;   
+    color: var(--title-color);   
 }
 .section-hero{
 background-color: #2E2F42;
@@ -75,7 +82,7 @@ background-color: #2E2F42;
     line-height: 1.1;
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--text-color);
 }
 .button{
 font-family: 'Roboto',sans-serif;
@@ -86,13 +93,12 @@ line-height: 1.5;
 display: flex;
 align-items: center;
 letter-spacing: 0.04em;
-color: #FFFFFF;
-cursor: pointer;
-background-color: #4D5AE5;
+color: var(--text-color);
+cursor: pointer;;
 }
 .buton:hover,
 .buton:focus{
-    background-color: #404BBF;
+    color: var(--title-color);
 }
 .visually-hidden{
     position: absolute;
@@ -107,7 +113,7 @@ background-color: #4D5AE5;
     overflow: hidden;
 }
 .section-about-work{
-    background-color: #FFFFFF;
+    background-color: var(--text-color);
 }
 .about-work{
 font-weight: 500;
@@ -124,7 +130,7 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 .section-work{
-    background-color: #FFFFFF;
+    background-color: var(--text-color);
 }
 .work{
 font-weight: 700;
@@ -140,6 +146,8 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
 color: #2E2F42;
 }
 .worker-name{
@@ -156,6 +164,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+.footer{
+    background-color: #2E2F42;
+}
 .footer-text{
 font-weight: 400;
 font-size: 16px;
@@ -168,7 +179,7 @@ font-family: "Roboto",sans-serif;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #FFFFFF;
+color: var(--text-color);
 cursor: pointer;
 }
 .button-portfolio{
@@ -178,6 +189,14 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #4D5AE5;
 cursor: pointer;
+} 
+.buton-portfolio:hover,
+.buton-portfolio:focus{
+    color: #404BBF;
+}
+.buton-all:hover,
+.buton-all:focus{
+    color: #FCFCFC;
 }
 .cervices{
 font-weight: 500;
@@ -192,4 +211,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
+}
+.logo-studio{
+    color: var(--text-color);
 }
