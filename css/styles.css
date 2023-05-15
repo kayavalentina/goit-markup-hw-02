@@ -40,7 +40,7 @@ background-color: #FFFFFF;
     color: #4d5ae5;
     }
 .logo-studio-header{ 
-    color: #2E2F42;
+    color: #2E2F42 ;
 }
 .menu{
 font-weight: 500;
@@ -55,8 +55,11 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--adress-color);
 }
+:root{
+    --adress-color:#434455;  
+ }
 
 
 
@@ -96,7 +99,6 @@ background-color: #4D5AE5
 }
 .buton:hover,
 .buton:focus{
-    color: var(--title-color);
     background-color: #404BBF;
 }
 .visually-hidden{
@@ -187,18 +189,22 @@ letter-spacing: 0.04em;
 color:var(--btn-color);
 cursor: pointer;
 font-weight: 500;
-background-color:  #F4F4FD;
+background-color:#F4F4FD;
 }
- 
+.buton-all:hover,
+.buton-all:focus{
+    background-color:#404BBF;
+}  
+.buton-all:hover,
+.buton-all:focus{
+    color: #FFFFFF;
+    
+}
 .buton-portfolio:hover,
 .buton-portfolio:focus{
     color: #404BBF;
 }
-.buton-all:hover,
-.buton-all:focus{
-    color: #FFFFFF;
-    background-color:#404BBF;
-}
+
 .cervices{
 font-weight: 500;
 font-size: 20px;
