@@ -2,8 +2,8 @@ body{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
-color: #434455;
-background-color: #FFFFFF;
+color: var(--paragraph-color);
+background-color: var(--text-color);
 }
 .list{
     list-style: none;
@@ -16,19 +16,12 @@ background-color: #FFFFFF;
 }
 :root{
    --title-color: #404BBF;  
-}
-:root{
     --text-color: #FFFFFF;  
- }
- :root{
     --btn-color:#4d5ae5;  
- }
- :root{
     --services-color:#2e2f42;  
- }
- 
- :root{
-    --paragraf-color:#434455;  
+    --paragraph-color:#434455;
+    --white-filler-color: #F4F4FD;
+
  }
 
 .logo{  
@@ -41,17 +34,17 @@ background-color: #FFFFFF;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #4d5ae5;
+    color: var(--btn-color);
     }
 .logo-studio-header{ 
-    color: #2E2F42 ;
+    color: var(--services-color) ;
 }
 .menu{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--services-color);
 }
 .adress{
     font-style: normal;
@@ -59,10 +52,10 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--paragraf-color);
+    color: var(--paragraph-color);
 }
 .mail-tel{
-    color: var(--paragraf-color);
+    color: var(--paragraph-color);
 }
 .menu:hover,
 .menu:focus{
@@ -75,7 +68,7 @@ color: #2E2F42;
 }
   
 .section-hero{
-background-color: #2E2F42;
+background-color: var(--services-color);
 }
 .hero{
     font-weight: 700;
@@ -96,11 +89,11 @@ align-items: center;
 letter-spacing: 0.04em;
 color: var(--text-color);
 cursor: pointer;
-background-color: #4D5AE5
+background-color: var(--btn-color);
 }
 .button:hover,
 .button:focus{
-    background-color:#404BBF;
+    background-color:var(--title-color);
 }
 .visually-hidden{
     position: absolute;
@@ -122,14 +115,14 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--services-color);
 }
 .about-work-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--paragraph-color);
 }
 .section-work{
     background-color: var(--text-color);
@@ -141,13 +134,13 @@ line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--services-color);
 }
 .section-team{
-    background-color: #F4F4FD
+    background-color: var(--white-filler-color);
 }
 .team-photo{
-    background-color: #FFFFFF
+    background-color: var(--text-color);
 }
 .team{
 font-weight: 700;
@@ -156,31 +149,31 @@ line-height: 1.11;
 letter-spacing: 0.02em;
 text-align: center;
 text-transform: capitalize;
-color: #2E2F42;
+color: var(--services-color);
 }
 .worker-name{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-color: #2E2F42;
+color: var(--services-color);
 }
 .profession{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: var(--paragraf-color);
+color: var(--paragraph-color);
 }
 .footer{
-    background-color: #2E2F42;
+    background-color: var(--services-color);
 }
 .footer-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #F4F4FD;
+color:var(--white-filler-color);
 }
 .button-all{
 font-family: "Roboto",sans-serif;
@@ -190,32 +183,32 @@ letter-spacing: 0.04em;
 color:var(--btn-color);
 cursor: pointer;
 font-weight: 500;
-background-color:#F4F4FD;
+background-color:var(--white-filler-color);
 }
 .button-all:hover,
 .button-all:focus{
-    background-color:#404BBF;
+    background-color:var(--title-color);
 }  
 .button-all:hover,
 .button-all:focus{
-    color: #FFFFFF;
+    color: var(--text-color);
     
 }
 
-.cervices{
+.services{
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--services-color);
 }
-.cervices-text{
+.services-text{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--paragraf-color) ;
+color:var(--paragraph-color) ;
 }
 .logo-studio{
-    color: #f4f4fd;
+    color: var(--white-filler-color);
 }
