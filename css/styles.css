@@ -26,11 +26,9 @@ background-color: #FFFFFF;
  :root{
     --services-color:#2e2f42;  
  }
+ 
  :root{
-    --adress-color:#434455;  
- }
- :root{
-    --parafraf-color:#434455;  
+    --paragraf-color:#434455;  
  }
 
 .logo{  
@@ -61,10 +59,10 @@ color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--adress-color);
+    color: var(--paragraf-color);
 }
 .mail-tel{
-    color: var(--adress-color);
+    color: var(--paragraf-color);
 }
 .menu:hover,
 .menu:focus{
@@ -172,7 +170,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455;
+color: var(--paragraf-color);
 }
 .footer{
     background-color: #2E2F42;
@@ -216,7 +214,7 @@ font-weight: 400;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color:var(--parafraf-color) ;
+color:var(--paragraf-color) ;
 }
 .logo-studio{
     color: #f4f4fd;
