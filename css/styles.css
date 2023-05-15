@@ -63,7 +63,9 @@ color: #2E2F42;
     letter-spacing: 0.02em;
     color: var(--adress-color);
 }
-
+.mail-tel{
+    color: var(--adress-color);
+}
 .menu:hover,
 .menu:focus{
     color: var(--title-color);   
